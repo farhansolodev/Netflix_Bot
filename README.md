@@ -9,3 +9,5 @@
 3. Have the latest version of pip
 4. Run `pip install selenium` once, to install the selenium package onto your machine
 5. Run `pip install webdriver-manager` once
+
+**Note: `flix_acc.txt` has been left out intentionally**
