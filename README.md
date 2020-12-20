@@ -2,7 +2,7 @@
 
 ### This demo is for educational purposes only, and is not meant for recreational use.
 
-Steps to run:
+**Steps to run:**
 
 1. Have the latest version of Python
 2. Have the latest version of Chromium
