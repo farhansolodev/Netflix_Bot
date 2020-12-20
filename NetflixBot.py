@@ -1,4 +1,5 @@
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 from tempfile import mkstemp
@@ -11,7 +12,8 @@ import sys
 class NetflixBot():
 
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        # self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
     def getCreds(self, filepath):
         with open(filepath,"r") as accFile:
