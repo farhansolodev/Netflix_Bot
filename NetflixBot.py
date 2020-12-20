@@ -114,7 +114,7 @@ class NetflixBot():
         #Move new file
         move(abs_path, filepath)
 
-filepath = "D:/Netflix_Bot/flix_acc.txt"
+filepath = os.path.relpath("flix_acc.txt")
 bot = NetflixBot()
 creds = bot.getCreds(filepath)
 bot.login(creds,0)
