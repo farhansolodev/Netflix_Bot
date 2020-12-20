@@ -1,6 +1,6 @@
 # Netflix_Bot
 
-### This demo is for educational purposes only
+### This demo is for educational purposes only, and is not meant for recreational use.
 
 For this demo to work, you must:
 
