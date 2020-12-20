@@ -1,0 +1,4 @@
+__pycache__/
+.vscode/
+flixbot_env/
+debug.log
