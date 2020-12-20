@@ -12,7 +12,6 @@ import sys
 class NetflixBot():
 
     def __init__(self):
-        # self.driver = webdriver.Chrome()
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
     def getCreds(self, filepath):
