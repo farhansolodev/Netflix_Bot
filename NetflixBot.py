@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 from tempfile import mkstemp
 from shutil import move, copymode
+import os
 from os import fdopen, remove
 import re
 import sys
